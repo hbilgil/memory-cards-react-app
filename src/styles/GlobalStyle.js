@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
     background: url(${backGroundPic});
-    background-size: 100% 100%;
+    background-size: contain;
     background-attachment: fixed;
     color: ${({ theme }) => theme.colors.dark};
   }
