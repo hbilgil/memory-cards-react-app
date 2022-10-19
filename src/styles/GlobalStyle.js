@@ -13,17 +13,17 @@ const GlobalStyle = createGlobalStyle`
 
   html {
     font-size: 62.5%;
-    line-height: 1.6;
+    line-height: 1.6; 
     position: relative;
-    min-height: 100%;
+    background-image: url(${backGroundPic});
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
   }
 
   body {
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
-    background: url(${backGroundPic});
-    background-size: contain;
-    background-attachment: fixed;
     color: ${({ theme }) => theme.colors.dark};
   }
 
