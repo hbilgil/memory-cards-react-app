@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import backGroundPic from "../images/background.jpeg";
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -20,7 +21,9 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
-    background-image: linear-gradient(to right bottom, #f1f6eb, #e9f5ec, #e2f3ef, #ddf0f2, #dcedf4, #d8eef7, #d5eefa, #d1effd, #c5f5fb, #c1faf1, #c9fde0, #ddfdcc);
+    background: url(${backGroundPic});
+    background-size: 100% 100%;
+    background-attachment: fixed;
     color: ${({ theme }) => theme.colors.dark};
   }
 
@@ -51,7 +54,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: inherit;
     font-size: inherit;
   }
-  
+
   button {
     cursor: pointer;
   }
