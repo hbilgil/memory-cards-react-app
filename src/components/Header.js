@@ -4,18 +4,18 @@ import logoUefa from '../images/uefa-champions-league-seeklogo.com.svg'
 import logoCup from '../images/uefachampionsleaguecup.png';
 
 const Header = () => {
-    return (
-      <>
-        <HeaderContainer>
-          <Logo src={logoUefa} alt="uefa-logo"></Logo>
-          <HeaderWrapper>
-            <HeaderText size="4rem" family="'Train One', cursive">MEMORY GAME</HeaderText>
-            <HeaderText size="3rem" family="'Quintessential', cursive">for Champions</HeaderText>
-          </HeaderWrapper>
-          <Logo src={logoCup} alt="cup-logo"></Logo>
-        </HeaderContainer>
-      </>
-    )
+  return (
+    <>
+      <HeaderContainer>
+        <Logo src={logoUefa} alt="uefa-logo"></Logo>
+        <HeaderWrapper>
+          <HeaderText size="4rem" family="'Train One', cursive">MEMORY GAME</HeaderText>
+          <HeaderText size="3rem" family="'Quintessential', cursive">for Champions</HeaderText>
+        </HeaderWrapper>
+        <Logo src={logoCup} alt="cup-logo"></Logo>
+      </HeaderContainer>
+    </>
+  )
 }
 
 const HeaderContainer = styled.header`
