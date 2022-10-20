@@ -11,7 +11,7 @@ import chelsea from '../images/chelsea.png';
 import porto from '../images/porto.png';
 import dortmund from '../images/dortmund.png';
 
-let teamsInfo = [
+  let teamsInfo = [
     {
       src: real,
       name: "Real Madrid",
@@ -72,6 +72,6 @@ let teamsInfo = [
       name: "Borussia Dortmund",
       won: "1",
     }
-];
+  ];
 
 export default teamsInfo;
