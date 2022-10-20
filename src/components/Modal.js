@@ -1,17 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Modal = () => {
+const Modal = (props) => {
+
+    const { message, resetGame, currentScore } = props;
+
     return (
         <ModalContainer>
           <ModalWrapper>
             <ModalMessage size="36px" margin="10px auto">
-
+            {message}
             </ModalMessage>
             <ModalMessage size="24px" margin="4px auto 8px auto">
-                Final Score:
+                Final Score: {currentScore}
             </ModalMessage>
-            <ModalBtn>
+            <ModalBtn onClick={resetGame}>
                 Play again
             </ModalBtn>
           </ModalWrapper>
@@ -27,6 +30,7 @@ const ModalContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 `;
 
 const ModalWrapper = styled.div`
