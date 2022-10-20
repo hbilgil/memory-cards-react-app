@@ -28,6 +28,7 @@ const Main = () => {
   const resetGame = () => {
     setGameOver(false);
     setCurrentScore(0);
+    setBestScore(currentScore);
     setTeams([]);
   };
 
