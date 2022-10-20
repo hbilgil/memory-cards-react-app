@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ScoreBoard = () => {
+const ScoreBoard = (props) => {
+
+    const { currentScore, bestScore } = props;
+
     return (
         <ScoreboardWrapper>
-          <Score backgroundColor="#ffb5b5">Current score: </Score>
-          <Score backgroundColor="#b5ffb5">Best score: </Score>
+          <Score backgroundColor="#ffb5b5">Current score: {currentScore}</Score>
+          <Score backgroundColor="#b5ffb5">Best score: {bestScore}</Score>
         </ScoreboardWrapper>
     )
 }
