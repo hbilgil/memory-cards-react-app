@@ -25,7 +25,7 @@ const HeaderContainer = styled.header`
   padding: 2rem;
   background-color: ${({ theme }) => theme.colors.lightHeader};
   opacity: 0.9;
-`
+`;
 
 const Logo = styled.img`
   width: 10rem;
@@ -33,19 +33,20 @@ const Logo = styled.img`
   @media (max-width: 600px) {
     width: 6rem;
     height: auto;
-`
+  }
+`;
 
 const HeaderWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const HeaderText = styled.h1`
-    font-size: ${(props) => props.size};
-    font-family: ${(props) => props.family};
-    @media (max-width: 600px) {
+  font-size: ${(props) => props.size};
+  font-family: ${(props) => props.family};
+  @media (max-width: 600px) {
     font-size: 3rem;
   }
 `;
