@@ -4,10 +4,12 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
 
-const App = () => {
+const App = (props) => {
+
+  const {gameOver, message, resetGame, currentScore } = props;
   return (
     <>
-      <Modal />
+      {gameOver && <Modal message={message} resetGame={resetGame} score={currentScore} />}
       <Header />
       <Main/>
       <Footer />
