@@ -5,7 +5,9 @@ const Theme = {
       lightHeader: "#ffffff",
       lightFooter: "#cce7e8",
       linkHover: "#D933FF",
-      linkActive: "#FF8433"
+      linkActive: "#FF8433",
+      modalBtn: "#0e499d",
+      modalBtnHover: "#2564bb"
     },
 };
   
