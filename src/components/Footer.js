@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Footer = () => {
-    return (
-        <FooterContainer>
-            <p>Copyright © 2022 </p>
-            <Link href="https://github.com/hbilgil" target="_blank">
-                Halil Bilgil
-            </Link>
-        </FooterContainer>
-    );
+  return (
+    <FooterContainer>
+      <p>Copyright © 2022 </p>
+      <Link href="https://github.com/hbilgil" target="_blank">
+      Halil Bilgil
+      </Link>
+    </FooterContainer>
+  )
 }
 
 const FooterContainer = styled.footer`
