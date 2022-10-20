@@ -2,15 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ScoreBoard = (props) => {
+  const { currentScore, bestScore } = props;
 
-    const { currentScore, bestScore } = props;
-
-    return (
-        <ScoreboardWrapper>
-          <Score backgroundColor="#ffb5b5">Current score: {currentScore}</Score>
-          <Score backgroundColor="#b5ffb5">Best score: {bestScore}</Score>
-        </ScoreboardWrapper>
-    )
+  return (
+    <ScoreboardWrapper>
+      <Score backgroundColor="#ffb5b5">Current score: {currentScore}</Score>
+      <Score backgroundColor="#b5ffb5">Best score: {bestScore}</Score>
+    </ScoreboardWrapper>
+  )
 }
 
 const ScoreboardWrapper = styled.div`
@@ -23,7 +22,8 @@ const ScoreboardWrapper = styled.div`
     width: 250px;
     gap: 3rem;
   }
-`
+`;
+
 const Score = styled.div`
   padding: 0.5rem;
   width: 30%;
@@ -35,6 +35,6 @@ const Score = styled.div`
   @media (max-width: 600px) {
     width: 100%;
   }
-`
+`;
 
 export default ScoreBoard;
