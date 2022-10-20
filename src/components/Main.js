@@ -28,13 +28,13 @@ const Main = () => {
   const resetGame = () => {
     setGameOver(false);
     setCurrentScore(0);
-    setBestScore(currentScore);
     setTeams([]);
   };
 
   useEffect(() => {
     if (currentScore === 12) {
       setMessage("🎉 You Won! 🎉");
+      setBestScore(currentScore);
       setGameOver(true);
     }
   }, [currentScore]);
