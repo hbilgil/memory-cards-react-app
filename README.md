@@ -1,6 +1,6 @@
 # Memory Cards Game Application
 
-The main goal of this project is to use React hooks or lifecycle methods as well as a lot of state to play a game contains a couple of cards that display city images and their names. Anytime a user clicks one, the cards are shuffled again in a random order when the component mounts and app shows the current and best score you achieved thus far.
+The main goal of this project is to use React hooks or lifecycle methods as well as a lot of state to play a game contains a couple of cards that display teams that have the title "Champions League Champion" and their names. Anytime a user clicks one, the cards are shuffled again in a random order when the component mounts and app shows the current and best score you achieved thus far.
 
 [Live Demo](https://hbilgil.github.io/memory-cards-react-app/):point_left:
 
