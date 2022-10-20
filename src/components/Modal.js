@@ -2,24 +2,23 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Modal = (props) => {
+  const { message, resetGame, currentScore } = props;
 
-    const { message, resetGame, currentScore } = props;
-
-    return (
-        <ModalContainer>
-          <ModalWrapper>
-            <ModalMessage size="36px" margin="10px auto">
-            {message}
-            </ModalMessage>
-            <ModalMessage size="24px" margin="4px auto 8px auto">
-                Final Score: {currentScore}
-            </ModalMessage>
-            <ModalBtn onClick={resetGame}>
-                Play again
-            </ModalBtn>
-          </ModalWrapper>
-        </ModalContainer>
-    )
+  return (
+    <ModalContainer>
+      <ModalWrapper>
+        <ModalMessage size="2.5vw" margin="10px auto">
+        {message}
+        </ModalMessage>
+        <ModalMessage size="2vw" margin="4px auto 8px auto">
+        Final Score: {currentScore}
+        </ModalMessage>
+        <ModalBtn onClick={resetGame}>
+        Play again
+        </ModalBtn>
+      </ModalWrapper>
+    </ModalContainer>
+  )
 }
 
 const ModalContainer = styled.div`
@@ -53,6 +52,9 @@ const ModalMessage = styled.p`
   color: ${({ theme }) => theme.colors.dark};
   font-size: ${(props) => props.size};
   margin: ${(props) => props.margin};
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 const ModalBtn = styled.button`
