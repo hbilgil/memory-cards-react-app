@@ -31,7 +31,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    if (currentScore === 12) {
+    if (currentScore === 18) {
       setMessage("🎉 You Won! 🎉");
       setBestScore(currentScore);
       setGameOver(true);
