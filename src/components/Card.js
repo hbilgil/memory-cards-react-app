@@ -52,11 +52,11 @@ const Name = styled.p`
 `;
 
 const TitleDiv = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    gap: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 2px;
     
 `;
 
@@ -67,7 +67,7 @@ const CupLogo = styled.img`
 `;
 
 const TitleText = styled.p`
-    font-size: 1rem;
+  font-size: 1rem;
 `;
 
 export default Card;
