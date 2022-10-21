@@ -29,9 +29,12 @@ const Cards = (props) => {
 
 const CardsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 3rem;
   margin-bottom: 20px;
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
   @media (max-width: 800px) {
     grid-template-columns: repeat(3, 1fr);
   }
