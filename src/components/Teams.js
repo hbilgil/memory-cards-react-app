@@ -9,7 +9,13 @@ import inter from '../images/inter.png';
 import juventus from '../images/juve.png';
 import chelsea from '../images/chelsea.png';
 import porto from '../images/porto.png';
+import benfica from '../images/benfica.png';
+import nottingham from '../images/nottingham.png';
 import dortmund from '../images/dortmund.png';
+import celtic from '../images/celtic.png';
+import marseille from '../images/marseille.png';
+import feyenoord from '../images/feyenoord.png';
+import psv from '../images/psv.png';
 
   let teamsInfo = [
     {
@@ -24,7 +30,7 @@ import dortmund from '../images/dortmund.png';
     },
     {
       src: bayern,
-      name: "Bayern Munchen",
+      name: "Bayern München",
       won: "6",
     },
     {
@@ -68,8 +74,38 @@ import dortmund from '../images/dortmund.png';
       won: "2",
     },
     {
+      src: benfica,
+      name: "Benfica",
+      won: "2",
+    },
+    {
+      src: nottingham,
+      name: "Nottingham Forest",
+      won: "2",
+    },
+    {
       src: dortmund,
       name: "Borussia Dortmund",
+      won: "1",
+    },
+    {
+      src: celtic,
+      name: "Celtic",
+      won: "1",
+    },
+    {
+      src: marseille,
+      name: "Marseille",
+      won: "1",
+    },
+    {
+      src: feyenoord,
+      name: "Feyenoord",
+      won: "1",
+    },
+    {
+      src: psv,
+      name: "PSV Eindhoven",
       won: "1",
     }
   ];
