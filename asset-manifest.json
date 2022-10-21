@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/memory-cards-react-app/static/js/main.98303c8f.js",
+    "static/media/background.jpeg": "/memory-cards-react-app/static/media/background.f886ff9aafd72466b12e.jpeg",
+    "static/media/manchester.png": "/memory-cards-react-app/static/media/manchester.bb406e8806824185350b.png",
+    "static/media/chelsea.png": "/memory-cards-react-app/static/media/chelsea.83f9fb7fde4688291747.png",
+    "static/media/liverpool.png": "/memory-cards-react-app/static/media/liverpool.ec02c7adcbcd78ecd544.png",
+    "static/media/celtic.png": "/memory-cards-react-app/static/media/celtic.537ccb909cbc60f55b02.png",
+    "static/media/bayern.png": "/memory-cards-react-app/static/media/bayern.32b8dba5f4279cc84ab5.png",
+    "static/media/porto.png": "/memory-cards-react-app/static/media/porto.90800dd6d5809fc501bd.png",
+    "static/media/benfica.png": "/memory-cards-react-app/static/media/benfica.b8bd0860c05008d05860.png",
+    "static/media/real.png": "/memory-cards-react-app/static/media/real.a37ffe2f6b0851f48dc7.png",
+    "static/media/feyenoord.png": "/memory-cards-react-app/static/media/feyenoord.7387aa63559a45dcdad8.png",
+    "static/media/psv.png": "/memory-cards-react-app/static/media/psv.ea6db6fd2d8c5567ab3d.png",
+    "static/media/dortmund.png": "/memory-cards-react-app/static/media/dortmund.9b2acbb7465fe90d6314.png",
+    "static/media/barca.png": "/memory-cards-react-app/static/media/barca.225a022681258fdf75cb.png",
+    "static/media/inter.png": "/memory-cards-react-app/static/media/inter.466498c33187906a3d0c.png",
+    "static/media/milan.png": "/memory-cards-react-app/static/media/milan.594eebb302feb5499f43.png",
+    "static/media/ajax.png": "/memory-cards-react-app/static/media/ajax.0c6870f96c83be93fcc5.png",
+    "static/media/uefachampionsleaguecup.png": "/memory-cards-react-app/static/media/uefachampionsleaguecup.dfcca4216d8ea79244ff.png",
+    "static/media/uefa-champions-league-seeklogo.com.svg": "/memory-cards-react-app/static/media/uefa-champions-league-seeklogo.com.ad2208db5f5341e8d45bf0aae430c62e.svg",
+    "index.html": "/memory-cards-react-app/index.html",
+    "main.98303c8f.js.map": "/memory-cards-react-app/static/js/main.98303c8f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.98303c8f.js"
+  ]
+}
